@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#FFE24A">
+<title>Tasuku &amp; Chisato wedding party</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Yellowtail&family=Zen+Maru+Gothic:wght@400;500;700;900&family=Klee+One:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header" id="top-header">
+  <a class="site-title" href="#top" id="site-title"></a>
+  <button class="menu-btn" id="menu-btn" aria-label="メニューを開く" aria-expanded="false" aria-controls="menu">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<nav class="menu" id="menu" aria-hidden="true">
+  <p class="menu-head">CONTENTS</p>
+  <ul>
+    <li><a href="#top"><b>00</b>Cover<small>表紙</small></a></li>
+    <li><a href="#profile"><b>01</b>Profile<small>ふたりの紹介</small></a></li>
+    <li><a href="#story"><b>02</b>Story<small>ふたりの物語</small></a></li>
+    <li><a href="#favorites"><b>03</b>Favorites<small>好きなもの</small></a></li>
+    <li><a href="#places"><b>04</b>Map<small>思い出の場所</small></a></li>
+    <li><a href="#playlist"><b>05</b>Playlist<small>プレイリスト</small></a></li>
+    <li><a href="#qa"><b>06</b>Q&amp;A<small>ゲストからの質問</small></a></li>
+    <li><a href="#album"><b>07</b>Album<small>アルバム</small></a></li>
+  </ul>
+</nav>
+
+<main class="page" id="top">
+
+  <!-- ============ COVER ============ -->
+  <section class="cover" id="hero">
+    <p class="cover-tag">大好きなみなさんと過ごす、最高の一日</p>
+    <h1 class="masthead" aria-label="WEDDING"><span>WEDDING</span></h1>
+    <p class="cover-sub"><b>Magazine for Wedding Guests</b><span id="cover-issue"></span></p>
+
+    <div class="cover-main">
+      <div class="cover-date" id="cover-date"></div>
+      <div class="hero-photo ph" id="hero-photo"></div>
+
+      <svg class="badge" viewBox="0 0 120 120" aria-hidden="true">
+        <defs><path id="circ" d="M60,60 m-44,0 a44,44 0 1,1 88,0 a44,44 0 1,1 -88,0"/></defs>
+        <circle cx="60" cy="60" r="58" fill="#FF5C8A"/>
+        <text class="badge-ring"><textPath href="#circ" startOffset="0">TASUKU &amp; CHISATO ★ WEDDING PARTY ★ </textPath></text>
+        <text x="60" y="58" text-anchor="middle" class="badge-big">BEST</text>
+        <text x="60" y="76" text-anchor="middle" class="badge-big">DAY</text>
+      </svg>
+
+      <p class="cover-names"><span>Tasuku</span> <i>&amp;</i> <span>Chisato</span></p>
+    </div>
+
+    <ul class="cover-lines">
+      <li><a href="#profile"><b>01</b><span>新郎新婦、<em>まるごと</em>プロフィール</span></a></li>
+      <li><a href="#story"><b>02</b><span>幼なじみから夫婦へ、<em>4年8ヶ月</em>の物語</span></a></li>
+      <li><a href="#favorites"><b>03</b><span>ふたりの「好き」大特集</span></a></li>
+      <li><a href="#places"><b>04</b><span>思い出の場所マップ</span></a></li>
+      <li><a href="#playlist"><b>05</b><span>当日BGMプレイリスト公開</span></a></li>
+      <li><a href="#qa"><b>06</b><span>ゲストの質問に<em>全部</em>答えます</span></a></li>
+      <li><a href="#album"><b>07</b><span>とっておき写真アルバム</span></a></li>
+    </ul>
+
+    <p class="cover-foot" id="hero-meta"></p>
+    <a class="scroll-hint" href="#profile" aria-label="下へ"><span>SCROLL</span></a>
+  </section>
+
+  <div class="ribbon" id="ribbon" aria-hidden="true"></div>
+
+  <div class="ticker t-yellow" aria-hidden="true"><div><span>CONGRATULATIONS ★ ようこそ ★ WELCOME TO OUR WEDDING ★ CONGRATULATIONS ★ ようこそ ★ WELCOME TO OUR WEDDING ★ </span><span>CONGRATULATIONS ★ ようこそ ★ WELCOME TO OUR WEDDING ★ CONGRATULATIONS ★ ようこそ ★ WELCOME TO OUR WEDDING ★ </span></div></div>
+
+  <!-- ============ PROFILE ============ -->
+  <section class="sec sec-profile" id="profile">
+    <h2 class="sec-title reveal"><small>01</small><span>Profile</span><em>ふたりの紹介</em></h2>
+    <div id="profile-body"></div>
+    <h3 class="sub-title reveal"><span>Our Numbers</span><em>数字で見るふたり</em></h3>
+    <div class="numbers" id="numbers"></div>
+  </section>
+
+  <!-- ============ STORY ============ -->
+  <section class="sec sec-story" id="story">
+    <h2 class="sec-title reveal"><small>02</small><span>Story</span><em>ふたりの物語</em></h2>
+    <p class="sec-lead reveal" id="story-lead"></p>
+    <ol class="timeline" id="timeline"></ol>
+  </section>
+
+  <div class="ticker t-pink" aria-hidden="true"><div><span>MY FAVORITE THINGS ★ ふたりの好き ★ MY FAVORITE THINGS ★ ふたりの好き ★ MY FAVORITE THINGS ★ ふたりの好き ★ </span><span>MY FAVORITE THINGS ★ ふたりの好き ★ MY FAVORITE THINGS ★ ふたりの好き ★ MY FAVORITE THINGS ★ ふたりの好き ★ </span></div></div>
+
+  <!-- ============ FAVORITES ============ -->
+  <section class="sec sec-fav" id="favorites">
+    <h2 class="sec-title reveal"><small>03</small><span>Favorites</span><em>好きなもの</em></h2>
+    <p class="sec-lead reveal">ふたりの「好き」をいくつか紹介します</p>
+    <div class="stack" id="stack"></div>
+  </section>
+
+  <!-- ============ MEMORIAL MAP ============ -->
+  <section class="sec sec-places" id="places">
+    <h2 class="sec-title reveal"><small>04</small><span>Map</span><em>思い出の場所</em></h2>
+    <p class="sec-lead reveal">ふたりのお気に入りの場所と、そこでの思い出</p>
+    <div class="places" id="places-body"></div>
+  </section>
+
+  <!-- ============ PLAYLIST ============ -->
+  <section class="sec sec-pl" id="playlist">
+    <h2 class="sec-title reveal"><small>05</small><span>Playlist</span><em>プレイリスト</em></h2>
+    <p class="sec-lead reveal" id="playlist-caption"></p>
+    <div class="playlist reveal" id="playlist-body"></div>
+  </section>
+
+  <div class="ticker t-green" aria-hidden="true"><div><span>ASK US ANYTHING ★ ゲストからの質問 ★ ASK US ANYTHING ★ ゲストからの質問 ★ ASK US ANYTHING ★ ゲストからの質問 ★ </span><span>ASK US ANYTHING ★ ゲストからの質問 ★ ASK US ANYTHING ★ ゲストからの質問 ★ ASK US ANYTHING ★ ゲストからの質問 ★ </span></div></div>
+
+  <!-- ============ Q&A ============ -->
+  <section class="sec sec-qa" id="qa">
+    <h2 class="sec-title reveal"><small>06</small><span>Q&amp;A</span><em>ゲストからの質問</em></h2>
+    <p class="sec-lead reveal">みなさんからいただいた質問に答えました</p>
+    <div class="qa" id="qa-body"></div>
+  </section>
+
+  <!-- ============ ALBUM ============ -->
+  <section class="sec sec-album" id="album">
+    <h2 class="sec-title reveal"><small>07</small><span>Album</span><em>アルバム</em></h2>
+    <p class="sec-lead reveal" id="album-lead"></p>
+    <div class="album" id="album-body"></div>
+  </section>
+
+  <!-- ============ BACK COVER ============ -->
+  <footer class="footer">
+    <div class="footer-photo ph reveal" id="footer-photo"></div>
+    <p class="footer-big reveal">THANK YOU<br>FOR COMING!</p>
+    <p class="footer-thanks reveal" id="footer-thanks"></p>
+    <p class="footer-sign reveal">Tasuku <i>&amp;</i> Chisato</p>
+    <div class="footer-meta reveal">
+      <span>ISSUE 1129 ・ ¥ PRICELESS</span>
+      <span class="barcode" aria-hidden="true"></span>
+    </div>
+    <a class="to-top" href="#top">&uarr;&ensp;TOP</a>
+  </footer>
+</main>
+
+<div class="modal" id="modal" aria-hidden="true">
+  <div class="modal-back" data-close></div>
+  <div class="modal-card" role="dialog" aria-modal="true" aria-label="Message">
+    <p class="modal-label" id="modal-label">Message</p>
+    <div class="modal-body" id="modal-body"></div>
+    <button class="modal-close" data-close>Close</button>
+  </div>
+</div>
+
+<script src="content.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
